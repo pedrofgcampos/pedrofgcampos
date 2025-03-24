@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+
+    <title>Pedro Campos</title>
+    <style>
+@font-face {
+font-family: aerisa;
+src: url("Aerisa.otf");
+}
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #ffffff;
+color: black;
+text-align: center;
+}
+html, body {
+height: 100%;
+margin: 0;
+padding: 0;
+display: flex;
+flex-direction: column;
+}
+.content {
+flex: 1; 
+}
+.logo {
+display: block;
+margin: 30px auto 0;
+width: 150px; 
+}
+nav {
+background-color: teal;
+padding: 15px 0;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+}
+nav ul li {
+margin: 0 15px;
+}
+nav ul li a {
+text-decoration: none;
+color: white;
+font-size: 18px;
+font-weight: bold;
+transition: color 0.3s;
+}
+nav ul li a:hover {
+color: #ffcc00;
+}
+.content {
+padding: 20px;
+}
+h1 {
+font-size: 60px;
+color: white;
+font-family: aerisa;
+text-align: center;
+}
+p {
+font-size: 18px;
+line-height: 1.6;
+color: black;
+}
+.bio-container {
+display: flex;
+align-items: center;
+justify-content: space-between;
+max-width: 80%;
+margin: 0 auto;
+}
+
+.bio-text {
+width: 65%;
+text-align: left;
+font-size: 18px;
+line-height: 1.6;
+color: black;
+}
+
+.bio-image {
+width: 25%;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+background-color: #333;
+color: white;
+text-align: center;
+padding: 20px 0;
+}
+
+.footer-container {
+max-width: 50%;
+margin: 0 auto;
+}
+
+
+.social-icons {
+margin-top: 10px;
+}
+
+.social-icons a {
+margin: 0 10px;
+display: inline-block;
+}
+
+.social-icons img {
+width: 24px;
+height: 24px;
+filter: invert(1); 
+transition: transform 0.3s ease-in-out;
+}
+
+.social-icons a:hover img {
+transform: scale(1.2);
+}
+
+h2 {
+font-size: 36px;
+color: teal;
+margin-bottom: 20px;
+}
+
+
+    </style>
+
+<link rel="shortcut icon" type="image/x-icon" href="imagens/icon.jpg" />
+</head>
+<body>
+    <img href="index1.html" src="imagens/logo.png" class="logo" alt="logo">
+
+    <nav>
+        <ul>
+            <li><a href="sobre mim.html">Sobre mim</a></li>
+            <li><a href="historiainformatica.html">História da informática</a></li>
+            <li><a href="trabalhos.html">Trabalhos</a></li>
+            <li><a href="contactos.html">Contactos</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <div class="bio-container">
+            <p class="bio-text">
+                Esta é a minha página pessoal de portfólio, ela ainda se encontra em construção e foi realizada no âmbito da UFCD 5097 - História da Informática, sob a tutela do Formador <a href="https://www.linkedin.com/in/kundan-narendra-05385213/">Kundan Narendra</a>.
+                <br><br>
+                Neste momento, vai encontrar na minha página alguns trabalhos realizados não só no âmbito desta, mas também de outras UFCDs do curso <b>CET Téc. Especialista em Gestão de Redes e Sist. Informáticos</b>, que me encontro a frequentar.
+            </p>
+            <img src="imagens/about.jpg" alt="Minha Foto" class="bio-image">
+        </div>
+    </div>
+    <div class="content">
+        <h2>Quem sou e o que Faço</h2>
+        <p>Em 2023 desenterrei uma paixão e um projeto antigos, a informática e a Programação, chamo-me Pedro Campos e tenho 35 anos e este é o meu site se me quiser conhecer melhor...</p>
+        <h2>Formação</h2>
+        <ul style="color: black; justify-items: center;">
+            <li>Licenciatura em Engenharia Informática (não concluido) - Faculdade de Ciências da Universidade de Lisboa</li><br>
+            <li>Programação em Python (2024) - IEFP AMADORA</li><br>
+            <li><b>CET Téc. Especialista em Gestão de Redes e Sist. Informáticos (2024-Presente) - IEFP Alcoitão</b></li><br>
+        </ol>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <p style="color:#ffffff">&copy; 2025 Pedro Campos. Todos os direitos reservados.</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/pedrofgcampos/" target="_blank" rel="noopener noreferrer"><img src="imagens/facebook.png" alt="Facebook"></a>
+                <a href="https://x.com/pedroninguem" target="_blank" rel="noopener noreferrer"><img src="imagens/twitter.png" alt="Twitter"></a>
+                <a href="https://www.instagram.com/pedrofgcampos/" target="_blank" rel="noopener noreferrer"><img src="imagens/instagram.png"></a>
+                <a href="https://www.linkedin.com/in/pedro-campos-15202937/" target="_blank"><img src="imagens/linkedin.png" alt="linkedin"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
